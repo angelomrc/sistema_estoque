@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SistemaComercial</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_cadastrar_cliente">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CADASTRAR CLIENTE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_editar_cliente">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>EDITAR CLIENTE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_pesquisar_cliente">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PESQUISAR CLIENTE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_excluir_cliente">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>210</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>EXCLUIR CLIENTE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_lista_clientes">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LISTA DE CLIENTES</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_cadastrar_produto">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>60</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CADASTRAR PRODUTO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_editar_produto">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>110</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>EDITAR PRODUTO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_pesquisar_produto">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>160</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PESQUISAR PRODUTO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_excluir_produto">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>210</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>EXCLUIR PRODUTO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_lista_produtos">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>260</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LISTA DE PRODUTOS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_sair">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>470</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+      <kerning>false</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>SAIR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_pedido">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>400</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PEDIDO</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_notafiscal">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>400</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NOTA FISCAL</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>701</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>avatar.png</pixmap>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>btn_cadastrar_cliente</zorder>
+   <zorder>btn_editar_cliente</zorder>
+   <zorder>btn_pesquisar_cliente</zorder>
+   <zorder>btn_excluir_cliente</zorder>
+   <zorder>btn_lista_clientes</zorder>
+   <zorder>btn_cadastrar_produto</zorder>
+   <zorder>btn_editar_produto</zorder>
+   <zorder>btn_pesquisar_produto</zorder>
+   <zorder>btn_excluir_produto</zorder>
+   <zorder>btn_lista_produtos</zorder>
+   <zorder>btn_sair</zorder>
+   <zorder>btn_pedido</zorder>
+   <zorder>btn_notafiscal</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

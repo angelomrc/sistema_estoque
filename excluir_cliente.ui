@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Excluir Cliente</string>
+  </property>
+  <widget class="QPushButton" name="btn_sair_excluir_cli">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>470</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>VOLTAR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Insira o nome completo:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_nome">
+   <property name="geometry">
+    <rect>
+     <x>153</x>
+     <y>110</y>
+     <width>391</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>188</x>
+     <y>10</y>
+     <width>321</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ATENÇÃO! UMA VEZ EXCLUIDO NÃO PODERÁ SER RECUPERADO!</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_cliente_completo">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>200</y>
+     <width>701</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>10</pointsize>
+     <weight>9</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+text-decoration: underline;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_excluir">
+   <property name="geometry">
+    <rect>
+     <x>218</x>
+     <y>330</y>
+     <width>261</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Latha</family>
+     <pointsize>8</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;Latha&quot;;
+text-decoration: underline;</string>
+   </property>
+   <property name="text">
+    <string>CONFIRMAR EXCLUSÃO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_pesquisar">
+   <property name="geometry">
+    <rect>
+     <x>312</x>
+     <y>130</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pesquisar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_excluido">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>390</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-8</y>
+     <width>701</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>cadcli2.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>btn_sair_excluir_cli</zorder>
+  <zorder>label</zorder>
+  <zorder>txt_nome</zorder>
+  <zorder>label_2</zorder>
+  <zorder>lbl_cliente_completo</zorder>
+  <zorder>btn_excluir</zorder>
+  <zorder>btn_pesquisar</zorder>
+  <zorder>lbl_excluido</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
